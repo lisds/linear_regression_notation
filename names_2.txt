@@ -1,0 +1,2 @@
+['outcome variable', 'predicted variable', 'response variable', 'regressand',
+'dependent variable', 'endogenous variable']

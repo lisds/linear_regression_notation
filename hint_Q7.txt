@@ -1,0 +1,1 @@
+The formula for the fitted values is $\vec{\hat{y}} = b * \vec{x} + c$

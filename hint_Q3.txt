@@ -1,0 +1,3 @@
+To express each value as a percentage of the maximum possible score, you need
+to divide each value by the maximum possible score, and then multiply the
+result by 100.

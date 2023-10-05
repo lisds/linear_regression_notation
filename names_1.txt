@@ -1,0 +1,2 @@
+['predictor variable' 'regressor', 'covariate', 'explanatory variable',
+'independent variable', 'exogenous variable', 'feature']
