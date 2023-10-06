@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> # Hmmm, your `b`` variable looks incorrect.
-          >>> np.isclose(b_for_Q12, epo, atol=2)
+          >>> np.isclose(b_for_Q14, epo_2, atol=2)
           True
 
           """,
@@ -18,7 +18,7 @@ test = {
                 {
           'code': r"""
           >>> # Hmmm, your `c`` variable looks incorrect.
-          >>> np.isclose(c_for_Q12, tni, atol=2)
+          >>> np.isclose(c_for_Q14, tni_2, atol=2)
           True
 
           """,
@@ -29,7 +29,7 @@ test = {
                         {
           'code': r"""
           >>> # Hmmm, the contents of your `errors` vector looks incorrect.
-          >>>  np.allclose(errors_for_Q12, tester_2 - (tni + tni - tni + epo*0 + tester*0 + epo*tester + tester*0), atol=2)
+          >>>  np.allclose(errors_for_Q14, tester_4 - (tni_2 + tni_2 - tni_2 + epo_2*0 + tester_3*0 + epo_2*tester_3 + tester_3*0), atol=2)
           True
           """,
           'hidden': False,
